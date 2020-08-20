@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8203C8AB24CC61F500CADA11 /* PersonalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203C8AA24CC61F500CADA11 /* PersonalDetailsViewController.swift */; };
+		8203C8AD24CC739F00CADA11 /* AccountRegisteredSuccessfullyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203C8AC24CC739F00CADA11 /* AccountRegisteredSuccessfullyViewController.swift */; };
+		8203C8AF24CC745300CADA11 /* CreatePINCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203C8AE24CC745300CADA11 /* CreatePINCodeViewController.swift */; };
+		8203C8B124CC753F00CADA11 /* VerifyPINCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203C8B024CC753F00CADA11 /* VerifyPINCodeViewController.swift */; };
+		821CCFB024C9BCAD00BDE42D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CCFAF24C9BCAD00BDE42D /* AppDelegate.swift */; };
+		821CCFB424C9BCAD00BDE42D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CCFB324C9BCAD00BDE42D /* ViewController.swift */; };
+		821CCFB724C9BCAD00BDE42D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821CCFB524C9BCAD00BDE42D /* Main.storyboard */; };
+		821CCFB924C9BCAF00BDE42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821CCFB824C9BCAF00BDE42D /* Assets.xcassets */; };
+		821CCFBC24C9BCAF00BDE42D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821CCFBA24C9BCAF00BDE42D /* LaunchScreen.storyboard */; };
+		821CCFC424C9CC9C00BDE42D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CCFC324C9CC9C00BDE42D /* WelcomeViewController.swift */; };
+		821CCFC624C9CCB600BDE42D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CCFC524C9CCB600BDE42D /* RegistrationViewController.swift */; };
+		821CCFC824C9CCC900BDE42D /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821CCFC724C9CCC900BDE42D /* VerificationViewController.swift */; };
+		8258258424CB11610029D69D /* AddBankAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258258324CB11610029D69D /* AddBankAccountViewController.swift */; };
+		8258258624CB16210029D69D /* AccountAddedSuccessfullyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8258258524CB16210029D69D /* AccountAddedSuccessfullyViewController.swift */; };
+		825B32BA24E1518A003DC50B /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B32B924E1518A003DC50B /* FaceIDViewController.swift */; };
+		825B32BC24E18489003DC50B /* CreateNewPINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B32BB24E18489003DC50B /* CreateNewPINViewController.swift */; };
+		825B32BE24E18726003DC50B /* VerifyNewPINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B32BD24E18726003DC50B /* VerifyNewPINViewController.swift */; };
+		825B32C024E2BC4D003DC50B /* DeviceModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B32BF24E2BC4D003DC50B /* DeviceModal.swift */; };
+		82627E7D24CB3C4600A78BFD /* PayWithQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82627E7C24CB3C4600A78BFD /* PayWithQRCodeViewController.swift */; };
+		82627E7F24CB437500A78BFD /* AfterPaymentCompletionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82627E7E24CB437500A78BFD /* AfterPaymentCompletionViewController.swift */; };
+		8278060624DD62F6008C7E17 /* SettingsMerchantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8278060524DD62F6008C7E17 /* SettingsMerchantViewController.swift */; };
+		827DFD6B24D943FA00282E8F /* RegistrationMerchantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DFD6A24D943FA00282E8F /* RegistrationMerchantViewController.swift */; };
+		827DFD6D24D944B000282E8F /* VerificationMerchantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DFD6C24D944B000282E8F /* VerificationMerchantViewController.swift */; };
+		827DFD6F24D94D0D00282E8F /* PINCreatedSuccessfullyMerchantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DFD6E24D94D0D00282E8F /* PINCreatedSuccessfullyMerchantViewController.swift */; };
+		827DFD7224D9513B00282E8F /* YouAreMerchantNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DFD7124D9513B00282E8F /* YouAreMerchantNowViewController.swift */; };
+		827DFD7424D99F5100282E8F /* EnterPinCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DFD7324D99F5000282E8F /* EnterPinCodeViewController.swift */; };
+		827DFD7624DAD63000282E8F /* BankAccountModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DFD7524DAD63000282E8F /* BankAccountModal.swift */; };
+		8297046324E558770074D209 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297046224E558770074D209 /* FirstViewController.swift */; };
+		82A1BDF524D3F1CE0055DAEF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1BDF424D3F1CE0055DAEF /* SettingsViewController.swift */; };
+		82A1BDF724D47FB40055DAEF /* WelcomeMerchantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1BDF624D47FB40055DAEF /* WelcomeMerchantViewController.swift */; };
+		82A1BDFE24D554100055DAEF /* CustomerFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1BDFD24D554100055DAEF /* CustomerFeedbackViewController.swift */; };
+		82A1BE0124D57B100055DAEF /* CustomerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1BE0024D57B100055DAEF /* CustomerModal.swift */; };
+		82A6034124D02E3300C39241 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6034024D02E3300C39241 /* ContactUsViewController.swift */; };
+		82A6034424D05F1200C39241 /* MerchantFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A6034324D05F1200C39241 /* MerchantFlow.storyboard */; };
+		82A6034724D06C8B00C39241 /* BusinessDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6034624D06C8B00C39241 /* BusinessDetailsViewController.swift */; };
+		82A6034A24D0704900C39241 /* MembershipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6034824D0704900C39241 /* MembershipTableViewCell.swift */; };
+		82A6034B24D0704900C39241 /* MembershipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A6034924D0704900C39241 /* MembershipTableViewCell.xib */; };
+		82A6034D24D0735000C39241 /* MembershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6034C24D0735000C39241 /* MembershipViewController.swift */; };
+		82A6034F24D1475700C39241 /* HomeContainerMerchantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6034E24D1475700C39241 /* HomeContainerMerchantViewController.swift */; };
+		82A6035124D14B8000C39241 /* SideMenuMerchantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6035024D14B8000C39241 /* SideMenuMerchantViewController.swift */; };
+		82A6035624D15B0B00C39241 /* TransactionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6035424D15B0B00C39241 /* TransactionsTableViewCell.swift */; };
+		82A6035724D15B0B00C39241 /* TransactionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A6035524D15B0B00C39241 /* TransactionsTableViewCell.xib */; };
+		82A6035A24D1829000C39241 /* RegisteredDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6035824D1829000C39241 /* RegisteredDeviceTableViewCell.swift */; };
+		82A6035B24D1829000C39241 /* RegisteredDeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A6035924D1829000C39241 /* RegisteredDeviceTableViewCell.xib */; };
+		82A6035D24D1838A00C39241 /* RegisteredDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6035C24D1838A00C39241 /* RegisteredDevicesViewController.swift */; };
+		82A6035F24D1859100C39241 /* AddNewDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A6035E24D1859100C39241 /* AddNewDeviceViewController.swift */; };
+		82A6036124D1C73800C39241 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82A6036024D1C73800C39241 /* GoogleService-Info.plist */; };
+		82FA589524CC782E009975E1 /* PINCreatedSuccessfullyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FA589424CC782E009975E1 /* PINCreatedSuccessfullyViewController.swift */; };
+		82FA589724CD5B63009975E1 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FA589624CD5B63009975E1 /* SideMenuViewController.swift */; };
+		82FA589924CD5B85009975E1 /* HomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FA589824CD5B85009975E1 /* HomeContainerViewController.swift */; };
+		82FA58A724CDFB01009975E1 /* MyTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FA58A624CDFB01009975E1 /* MyTransactionsViewController.swift */; };
+		82FA58AD24CEB09B009975E1 /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FA58AC24CEB09B009975E1 /* ScanQRViewController.swift */; };
+		82FA58B024CEB94C009975E1 /* AddBankAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FA58AE24CEB94C009975E1 /* AddBankAccountTableViewCell.swift */; };
+		82FA58B124CEB94C009975E1 /* AddBankAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82FA58AF24CEB94C009975E1 /* AddBankAccountTableViewCell.xib */; };
+		82FA58B324CEC7EC009975E1 /* BankAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FA58B224CEC7EC009975E1 /* BankAccountsViewController.swift */; };
+		C4658DB6D8772F9788CFBBB3 /* Pods_PaymentsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56A8CB14246BCC53EAC2DB0 /* Pods_PaymentsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15E57DDDA5C4E6275C398A5A /* Pods-PaymentsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentsApp.release.xcconfig"; path = "Target Support Files/Pods-PaymentsApp/Pods-PaymentsApp.release.xcconfig"; sourceTree = "<group>"; };
+		8203C8AA24CC61F500CADA11 /* PersonalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailsViewController.swift; sourceTree = "<group>"; };
+		8203C8AC24CC739F00CADA11 /* AccountRegisteredSuccessfullyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRegisteredSuccessfullyViewController.swift; sourceTree = "<group>"; };
+		8203C8AE24CC745300CADA11 /* CreatePINCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePINCodeViewController.swift; sourceTree = "<group>"; };
+		8203C8B024CC753F00CADA11 /* VerifyPINCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPINCodeViewController.swift; sourceTree = "<group>"; };
+		821CCFAC24C9BCAD00BDE42D /* PaymentsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821CCFAF24C9BCAD00BDE42D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		821CCFB324C9BCAD00BDE42D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		821CCFB624C9BCAD00BDE42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		821CCFB824C9BCAF00BDE42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821CCFBB24C9BCAF00BDE42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		821CCFBD24C9BCAF00BDE42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821CCFC324C9CC9C00BDE42D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		821CCFC524C9CCB600BDE42D /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		821CCFC724C9CCC900BDE42D /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		8258258324CB11610029D69D /* AddBankAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankAccountViewController.swift; sourceTree = "<group>"; };
+		8258258524CB16210029D69D /* AccountAddedSuccessfullyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAddedSuccessfullyViewController.swift; sourceTree = "<group>"; };
+		825B32B924E1518A003DC50B /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDViewController.swift; sourceTree = "<group>"; };
+		825B32BB24E18489003DC50B /* CreateNewPINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPINViewController.swift; sourceTree = "<group>"; };
+		825B32BD24E18726003DC50B /* VerifyNewPINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyNewPINViewController.swift; sourceTree = "<group>"; };
+		825B32BF24E2BC4D003DC50B /* DeviceModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModal.swift; sourceTree = "<group>"; };
+		82627E7C24CB3C4600A78BFD /* PayWithQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWithQRCodeViewController.swift; sourceTree = "<group>"; };
+		82627E7E24CB437500A78BFD /* AfterPaymentCompletionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterPaymentCompletionViewController.swift; sourceTree = "<group>"; };
+		8278060524DD62F6008C7E17 /* SettingsMerchantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMerchantViewController.swift; sourceTree = "<group>"; };
+		827DFD6A24D943FA00282E8F /* RegistrationMerchantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationMerchantViewController.swift; sourceTree = "<group>"; };
+		827DFD6C24D944B000282E8F /* VerificationMerchantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationMerchantViewController.swift; sourceTree = "<group>"; };
+		827DFD6E24D94D0D00282E8F /* PINCreatedSuccessfullyMerchantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINCreatedSuccessfullyMerchantViewController.swift; sourceTree = "<group>"; };
+		827DFD7124D9513B00282E8F /* YouAreMerchantNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouAreMerchantNowViewController.swift; sourceTree = "<group>"; };
+		827DFD7324D99F5000282E8F /* EnterPinCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinCodeViewController.swift; sourceTree = "<group>"; };
+		827DFD7524DAD63000282E8F /* BankAccountModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountModal.swift; sourceTree = "<group>"; };
+		8297046224E558770074D209 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		82A1BDF424D3F1CE0055DAEF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		82A1BDF624D47FB40055DAEF /* WelcomeMerchantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMerchantViewController.swift; sourceTree = "<group>"; };
+		82A1BDFD24D554100055DAEF /* CustomerFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerFeedbackViewController.swift; sourceTree = "<group>"; };
+		82A1BE0024D57B100055DAEF /* CustomerModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModal.swift; sourceTree = "<group>"; };
+		82A6033F24D005EE00C39241 /* PaymentsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaymentsApp.entitlements; sourceTree = "<group>"; };
+		82A6034024D02E3300C39241 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		82A6034324D05F1200C39241 /* MerchantFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MerchantFlow.storyboard; sourceTree = "<group>"; };
+		82A6034624D06C8B00C39241 /* BusinessDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailsViewController.swift; sourceTree = "<group>"; };
+		82A6034824D0704900C39241 /* MembershipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipTableViewCell.swift; sourceTree = "<group>"; };
+		82A6034924D0704900C39241 /* MembershipTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MembershipTableViewCell.xib; sourceTree = "<group>"; };
+		82A6034C24D0735000C39241 /* MembershipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipViewController.swift; sourceTree = "<group>"; };
+		82A6034E24D1475700C39241 /* HomeContainerMerchantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerMerchantViewController.swift; sourceTree = "<group>"; };
+		82A6035024D14B8000C39241 /* SideMenuMerchantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuMerchantViewController.swift; sourceTree = "<group>"; };
+		82A6035424D15B0B00C39241 /* TransactionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTableViewCell.swift; sourceTree = "<group>"; };
+		82A6035524D15B0B00C39241 /* TransactionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsTableViewCell.xib; sourceTree = "<group>"; };
+		82A6035824D1829000C39241 /* RegisteredDeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredDeviceTableViewCell.swift; sourceTree = "<group>"; };
+		82A6035924D1829000C39241 /* RegisteredDeviceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisteredDeviceTableViewCell.xib; sourceTree = "<group>"; };
+		82A6035C24D1838A00C39241 /* RegisteredDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredDevicesViewController.swift; sourceTree = "<group>"; };
+		82A6035E24D1859100C39241 /* AddNewDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewDeviceViewController.swift; sourceTree = "<group>"; };
+		82A6036024D1C73800C39241 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82FA589424CC782E009975E1 /* PINCreatedSuccessfullyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINCreatedSuccessfullyViewController.swift; sourceTree = "<group>"; };
+		82FA589624CD5B63009975E1 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		82FA589824CD5B85009975E1 /* HomeContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerViewController.swift; sourceTree = "<group>"; };
+		82FA58A624CDFB01009975E1 /* MyTransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTransactionsViewController.swift; sourceTree = "<group>"; };
+		82FA58AC24CEB09B009975E1 /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		82FA58AE24CEB94C009975E1 /* AddBankAccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankAccountTableViewCell.swift; sourceTree = "<group>"; };
+		82FA58AF24CEB94C009975E1 /* AddBankAccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddBankAccountTableViewCell.xib; sourceTree = "<group>"; };
+		82FA58B224CEC7EC009975E1 /* BankAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountsViewController.swift; sourceTree = "<group>"; };
+		A56A8CB14246BCC53EAC2DB0 /* Pods_PaymentsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D285EA2C01FFD5432FC6401F /* Pods-PaymentsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentsApp.debug.xcconfig"; path = "Target Support Files/Pods-PaymentsApp/Pods-PaymentsApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821CCFA924C9BCAD00BDE42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4658DB6D8772F9788CFBBB3 /* Pods_PaymentsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564FD4DCDCA778517AE4812F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D285EA2C01FFD5432FC6401F /* Pods-PaymentsApp.debug.xcconfig */,
+				15E57DDDA5C4E6275C398A5A /* Pods-PaymentsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		821CCFA324C9BCAD00BDE42D = {
+			isa = PBXGroup;
+			children = (
+				821CCFAE24C9BCAD00BDE42D /* PaymentsApp */,
+				821CCFAD24C9BCAD00BDE42D /* Products */,
+				564FD4DCDCA778517AE4812F /* Pods */,
+				D01C2FB39307D7AA45A45865 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		821CCFAD24C9BCAD00BDE42D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821CCFAC24C9BCAD00BDE42D /* PaymentsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821CCFAE24C9BCAD00BDE42D /* PaymentsApp */ = {
+			isa = PBXGroup;
+			children = (
+				82A6033F24D005EE00C39241 /* PaymentsApp.entitlements */,
+				821CCFAF24C9BCAD00BDE42D /* AppDelegate.swift */,
+				82A1BDFA24D5478D0055DAEF /* Personal Flow */,
+				82A6034524D06C6200C39241 /* Merchant Flow */,
+				821CCFB824C9BCAF00BDE42D /* Assets.xcassets */,
+				821CCFBA24C9BCAF00BDE42D /* LaunchScreen.storyboard */,
+				821CCFBD24C9BCAF00BDE42D /* Info.plist */,
+				82A6036024D1C73800C39241 /* GoogleService-Info.plist */,
+				821CCFB324C9BCAD00BDE42D /* ViewController.swift */,
+				82A1BE0024D57B100055DAEF /* CustomerModal.swift */,
+				827DFD7524DAD63000282E8F /* BankAccountModal.swift */,
+				825B32BF24E2BC4D003DC50B /* DeviceModal.swift */,
+			);
+			path = PaymentsApp;
+			sourceTree = "<group>";
+		};
+		82A1BDFA24D5478D0055DAEF /* Personal Flow */ = {
+			isa = PBXGroup;
+			children = (
+				821CCFB524C9BCAD00BDE42D /* Main.storyboard */,
+				82FA589C24CDEFA0009975E1 /* Registration Flow */,
+				82FA589D24CDEFBD009975E1 /* Main Flow */,
+			);
+			path = "Personal Flow";
+			sourceTree = "<group>";
+		};
+		82A6034224D0382300C39241 /* side menu VCs */ = {
+			isa = PBXGroup;
+			children = (
+				82FA58AE24CEB94C009975E1 /* AddBankAccountTableViewCell.swift */,
+				82FA58AF24CEB94C009975E1 /* AddBankAccountTableViewCell.xib */,
+				82FA58B224CEC7EC009975E1 /* BankAccountsViewController.swift */,
+				82A6034024D02E3300C39241 /* ContactUsViewController.swift */,
+				82A1BDF424D3F1CE0055DAEF /* SettingsViewController.swift */,
+				82A1BDFD24D554100055DAEF /* CustomerFeedbackViewController.swift */,
+			);
+			path = "side menu VCs";
+			sourceTree = "<group>";
+		};
+		82A6034524D06C6200C39241 /* Merchant Flow */ = {
+			isa = PBXGroup;
+			children = (
+				82A6034324D05F1200C39241 /* MerchantFlow.storyboard */,
+				82A1BDF624D47FB40055DAEF /* WelcomeMerchantViewController.swift */,
+				82A6034624D06C8B00C39241 /* BusinessDetailsViewController.swift */,
+				827DFD6A24D943FA00282E8F /* RegistrationMerchantViewController.swift */,
+				827DFD6C24D944B000282E8F /* VerificationMerchantViewController.swift */,
+				827DFD6E24D94D0D00282E8F /* PINCreatedSuccessfullyMerchantViewController.swift */,
+				82A6034824D0704900C39241 /* MembershipTableViewCell.swift */,
+				827DFD7124D9513B00282E8F /* YouAreMerchantNowViewController.swift */,
+				82A6034924D0704900C39241 /* MembershipTableViewCell.xib */,
+				82A6034C24D0735000C39241 /* MembershipViewController.swift */,
+				82A6034E24D1475700C39241 /* HomeContainerMerchantViewController.swift */,
+				82A6035024D14B8000C39241 /* SideMenuMerchantViewController.swift */,
+				82A6035824D1829000C39241 /* RegisteredDeviceTableViewCell.swift */,
+				82A6035924D1829000C39241 /* RegisteredDeviceTableViewCell.xib */,
+				82A6035C24D1838A00C39241 /* RegisteredDevicesViewController.swift */,
+				82A6035E24D1859100C39241 /* AddNewDeviceViewController.swift */,
+				827DFD7324D99F5000282E8F /* EnterPinCodeViewController.swift */,
+				8278060524DD62F6008C7E17 /* SettingsMerchantViewController.swift */,
+				825B32BB24E18489003DC50B /* CreateNewPINViewController.swift */,
+				825B32BD24E18726003DC50B /* VerifyNewPINViewController.swift */,
+			);
+			path = "Merchant Flow";
+			sourceTree = "<group>";
+		};
+		82FA589C24CDEFA0009975E1 /* Registration Flow */ = {
+			isa = PBXGroup;
+			children = (
+				8297046224E558770074D209 /* FirstViewController.swift */,
+				821CCFC324C9CC9C00BDE42D /* WelcomeViewController.swift */,
+				8203C8AA24CC61F500CADA11 /* PersonalDetailsViewController.swift */,
+				821CCFC524C9CCB600BDE42D /* RegistrationViewController.swift */,
+				821CCFC724C9CCC900BDE42D /* VerificationViewController.swift */,
+				8203C8AC24CC739F00CADA11 /* AccountRegisteredSuccessfullyViewController.swift */,
+				8203C8AE24CC745300CADA11 /* CreatePINCodeViewController.swift */,
+				8203C8B024CC753F00CADA11 /* VerifyPINCodeViewController.swift */,
+				82FA589424CC782E009975E1 /* PINCreatedSuccessfullyViewController.swift */,
+				8258258324CB11610029D69D /* AddBankAccountViewController.swift */,
+				8258258524CB16210029D69D /* AccountAddedSuccessfullyViewController.swift */,
+				825B32B924E1518A003DC50B /* FaceIDViewController.swift */,
+			);
+			path = "Registration Flow";
+			sourceTree = "<group>";
+		};
+		82FA589D24CDEFBD009975E1 /* Main Flow */ = {
+			isa = PBXGroup;
+			children = (
+				82FA589824CD5B85009975E1 /* HomeContainerViewController.swift */,
+				82FA589624CD5B63009975E1 /* SideMenuViewController.swift */,
+				82627E7E24CB437500A78BFD /* AfterPaymentCompletionViewController.swift */,
+				82FA589E24CDF06C009975E1 /* Pay with QR */,
+				82FA58A324CDF77F009975E1 /* My Transactions */,
+				82A6034224D0382300C39241 /* side menu VCs */,
+			);
+			path = "Main Flow";
+			sourceTree = "<group>";
+		};
+		82FA589E24CDF06C009975E1 /* Pay with QR */ = {
+			isa = PBXGroup;
+			children = (
+				82627E7C24CB3C4600A78BFD /* PayWithQRCodeViewController.swift */,
+				82FA58AC24CEB09B009975E1 /* ScanQRViewController.swift */,
+			);
+			path = "Pay with QR";
+			sourceTree = "<group>";
+		};
+		82FA58A324CDF77F009975E1 /* My Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				82FA58A624CDFB01009975E1 /* MyTransactionsViewController.swift */,
+				82A6035424D15B0B00C39241 /* TransactionsTableViewCell.swift */,
+				82A6035524D15B0B00C39241 /* TransactionsTableViewCell.xib */,
+			);
+			path = "My Transactions";
+			sourceTree = "<group>";
+		};
+		D01C2FB39307D7AA45A45865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56A8CB14246BCC53EAC2DB0 /* Pods_PaymentsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821CCFAB24C9BCAD00BDE42D /* PaymentsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821CCFC024C9BCAF00BDE42D /* Build configuration list for PBXNativeTarget "PaymentsApp" */;
+			buildPhases = (
+				36AD391934D15897984693CB /* [CP] Check Pods Manifest.lock */,
+				821CCFA824C9BCAD00BDE42D /* Sources */,
+				821CCFA924C9BCAD00BDE42D /* Frameworks */,
+				821CCFAA24C9BCAD00BDE42D /* Resources */,
+				DBA009993B8C39CD4CAA78B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentsApp;
+			productName = PaymentsApp;
+			productReference = 821CCFAC24C9BCAD00BDE42D /* PaymentsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821CCFA424C9BCAD00BDE42D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Chinmay Bapna";
+				TargetAttributes = {
+					821CCFAB24C9BCAD00BDE42D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 821CCFA724C9BCAD00BDE42D /* Build configuration list for PBXProject "PaymentsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821CCFA324C9BCAD00BDE42D;
+			productRefGroup = 821CCFAD24C9BCAD00BDE42D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821CCFAB24C9BCAD00BDE42D /* PaymentsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821CCFAA24C9BCAD00BDE42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821CCFBC24C9BCAF00BDE42D /* LaunchScreen.storyboard in Resources */,
+				82A6035B24D1829000C39241 /* RegisteredDeviceTableViewCell.xib in Resources */,
+				82A6036124D1C73800C39241 /* GoogleService-Info.plist in Resources */,
+				82FA58B124CEB94C009975E1 /* AddBankAccountTableViewCell.xib in Resources */,
+				82A6035724D15B0B00C39241 /* TransactionsTableViewCell.xib in Resources */,
+				82A6034424D05F1200C39241 /* MerchantFlow.storyboard in Resources */,
+				821CCFB924C9BCAF00BDE42D /* Assets.xcassets in Resources */,
+				821CCFB724C9BCAD00BDE42D /* Main.storyboard in Resources */,
+				82A6034B24D0704900C39241 /* MembershipTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36AD391934D15897984693CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymentsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA009993B8C39CD4CAA78B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaymentsApp/Pods-PaymentsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaymentsApp/Pods-PaymentsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaymentsApp/Pods-PaymentsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821CCFA824C9BCAD00BDE42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8258258424CB11610029D69D /* AddBankAccountViewController.swift in Sources */,
+				8258258624CB16210029D69D /* AccountAddedSuccessfullyViewController.swift in Sources */,
+				82A6034A24D0704900C39241 /* MembershipTableViewCell.swift in Sources */,
+				82FA58AD24CEB09B009975E1 /* ScanQRViewController.swift in Sources */,
+				825B32C024E2BC4D003DC50B /* DeviceModal.swift in Sources */,
+				82A6034D24D0735000C39241 /* MembershipViewController.swift in Sources */,
+				82A6034724D06C8B00C39241 /* BusinessDetailsViewController.swift in Sources */,
+				82A6035124D14B8000C39241 /* SideMenuMerchantViewController.swift in Sources */,
+				82A1BDF524D3F1CE0055DAEF /* SettingsViewController.swift in Sources */,
+				82FA58B024CEB94C009975E1 /* AddBankAccountTableViewCell.swift in Sources */,
+				8203C8AF24CC745300CADA11 /* CreatePINCodeViewController.swift in Sources */,
+				821CCFC824C9CCC900BDE42D /* VerificationViewController.swift in Sources */,
+				827DFD6B24D943FA00282E8F /* RegistrationMerchantViewController.swift in Sources */,
+				827DFD6D24D944B000282E8F /* VerificationMerchantViewController.swift in Sources */,
+				82A1BDFE24D554100055DAEF /* CustomerFeedbackViewController.swift in Sources */,
+				827DFD6F24D94D0D00282E8F /* PINCreatedSuccessfullyMerchantViewController.swift in Sources */,
+				821CCFB424C9BCAD00BDE42D /* ViewController.swift in Sources */,
+				82FA589924CD5B85009975E1 /* HomeContainerViewController.swift in Sources */,
+				825B32BC24E18489003DC50B /* CreateNewPINViewController.swift in Sources */,
+				827DFD7624DAD63000282E8F /* BankAccountModal.swift in Sources */,
+				82FA58B324CEC7EC009975E1 /* BankAccountsViewController.swift in Sources */,
+				82A6034F24D1475700C39241 /* HomeContainerMerchantViewController.swift in Sources */,
+				82A6035D24D1838A00C39241 /* RegisteredDevicesViewController.swift in Sources */,
+				821CCFC424C9CC9C00BDE42D /* WelcomeViewController.swift in Sources */,
+				82A6034124D02E3300C39241 /* ContactUsViewController.swift in Sources */,
+				827DFD7224D9513B00282E8F /* YouAreMerchantNowViewController.swift in Sources */,
+				82627E7F24CB437500A78BFD /* AfterPaymentCompletionViewController.swift in Sources */,
+				82A6035A24D1829000C39241 /* RegisteredDeviceTableViewCell.swift in Sources */,
+				821CCFB024C9BCAD00BDE42D /* AppDelegate.swift in Sources */,
+				825B32BE24E18726003DC50B /* VerifyNewPINViewController.swift in Sources */,
+				82FA589524CC782E009975E1 /* PINCreatedSuccessfullyViewController.swift in Sources */,
+				82A1BE0124D57B100055DAEF /* CustomerModal.swift in Sources */,
+				8278060624DD62F6008C7E17 /* SettingsMerchantViewController.swift in Sources */,
+				8203C8AD24CC739F00CADA11 /* AccountRegisteredSuccessfullyViewController.swift in Sources */,
+				82627E7D24CB3C4600A78BFD /* PayWithQRCodeViewController.swift in Sources */,
+				8203C8AB24CC61F500CADA11 /* PersonalDetailsViewController.swift in Sources */,
+				82FA58A724CDFB01009975E1 /* MyTransactionsViewController.swift in Sources */,
+				8203C8B124CC753F00CADA11 /* VerifyPINCodeViewController.swift in Sources */,
+				82A6035F24D1859100C39241 /* AddNewDeviceViewController.swift in Sources */,
+				827DFD7424D99F5100282E8F /* EnterPinCodeViewController.swift in Sources */,
+				82A1BDF724D47FB40055DAEF /* WelcomeMerchantViewController.swift in Sources */,
+				82FA589724CD5B63009975E1 /* SideMenuViewController.swift in Sources */,
+				82A6035624D15B0B00C39241 /* TransactionsTableViewCell.swift in Sources */,
+				825B32BA24E1518A003DC50B /* FaceIDViewController.swift in Sources */,
+				821CCFC624C9CCB600BDE42D /* RegistrationViewController.swift in Sources */,
+				8297046324E558770074D209 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		821CCFB524C9BCAD00BDE42D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821CCFB624C9BCAD00BDE42D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		821CCFBA24C9BCAF00BDE42D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821CCFBB24C9BCAF00BDE42D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		821CCFBE24C9BCAF00BDE42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		821CCFBF24C9BCAF00BDE42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		821CCFC124C9BCAF00BDE42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D285EA2C01FFD5432FC6401F /* Pods-PaymentsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaymentsApp/PaymentsApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BBD6769P39;
+				INFOPLIST_FILE = PaymentsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paye.uk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Paye Ad Hoc";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		821CCFC224C9BCAF00BDE42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E57DDDA5C4E6275C398A5A /* Pods-PaymentsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaymentsApp/PaymentsApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BBD6769P39;
+				INFOPLIST_FILE = PaymentsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paye.uk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Paye Ad Hoc";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821CCFA724C9BCAD00BDE42D /* Build configuration list for PBXProject "PaymentsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821CCFBE24C9BCAF00BDE42D /* Debug */,
+				821CCFBF24C9BCAF00BDE42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821CCFC024C9BCAF00BDE42D /* Build configuration list for PBXNativeTarget "PaymentsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821CCFC124C9BCAF00BDE42D /* Debug */,
+				821CCFC224C9BCAF00BDE42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821CCFA424C9BCAD00BDE42D /* Project object */;
+}
